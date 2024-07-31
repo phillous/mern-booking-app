@@ -46,3 +46,4 @@ test("should allow user to register", async({page})=> {
   await expect(page.getByRole("button", {name: "Sign Out"})).toBeVisible();
 
 })
+
